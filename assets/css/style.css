@@ -1,0 +1,460 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    position:absolute;
+    z-index:10;
+    width:100%;
+}
+
+.nav-link{
+ font-weight: bold;
+ margin-left:30px;
+ 
+}
+.link{
+    margin-right:110px;
+}
+
+.main{
+    position: relative;
+    background-image: url(../images/background.png);
+    min-height:100vh;
+    background-size:cover;
+    background-position: center;
+    padding:220px 0 200px;
+}
+.font{
+    font-size:20px;
+}
+.heading{
+    
+    font-size: 50px;
+}
+.btn-danger{
+   border-radius:50px;
+   width:200px;
+}
+.bg{
+    width:100%;
+    height:650px;
+    background-color: antiquewhite;
+}
+.m{
+    margin-top:20px;
+}
+.lehsen{
+    width:60px;
+    margin-left:60px;
+}
+.width{
+    width:500px;
+    font-size:17px;
+    font-weight:400;
+    margin-left:40px;
+    
+}
+
+.burgerready{
+margin-left:300px;
+margin-bottom: 20px;
+width:150px;
+}
+.chips{
+    width:100px;
+}
+.profile{
+    width:200px;
+}
+.capsicum{
+    margin-top:100px;
+}
+.founder{
+    margin-left:80px;
+}
+.leaf{
+    margin-left:350px;
+}
+.funjai{
+    margin-left:120px;
+}
+@media screen and (max-width: 780px) {
+    .lehsen{
+       visibility: hidden;
+       position: absolute;
+    }
+    .burgerready{
+        margin-left:20px;
+        margin-bottom: 20px;
+        width:50px;
+        position: absolute;
+      
+        }
+        .width{
+            width:370px; 
+            position: relative;
+        }
+        .chips{
+            margin-left:150px;
+            visibility: hidden;
+            position: absolute;
+        }
+        .profile{
+            margin-left:190px;
+            width: 90px;
+            position: relative;
+            
+            
+            
+        }
+        .danger{
+            font-size: medium;
+            margin-left:180px;
+        }
+        .founder{
+            text-align: center;
+            margin-right: 60px;
+        }
+        .capsicum{
+          visibility: hidden;
+          position: absolute;
+            
+            
+        }
+        .leaf{
+            
+            width:50px;
+        }
+        .funjai{
+            width:50px;
+            
+        }
+
+    }
+    .b-g{
+        background-color:red;
+        width:100%;
+        height:500px;
+    }
+    .burger{
+        width:250px;
+        margin-left:250px;
+        margin-top:130px;
+    }
+    .best-burger{
+        margin-top:130px;
+        width:350px;
+    }
+    .btn-light{
+        border-radius:50px;
+        width:200px;
+        color:red;
+        font-weight: bold;
+     }
+     @media screen and (max-width: 850px) {
+        .burger{
+            width:150px;
+            margin-left:300px;
+            margin-top:130px;
+        }
+        .best-burger{
+            width:350px;
+            position:absolute;
+        }
+        }
+        .capsicum2{
+            width:70px;
+            margin-top:150px;
+        }
+        .burgerready2{
+            margin-top:10px;
+        }
+        .leaf2{
+            width:70px;
+            margin-left:170px;
+            margin-top:100px;
+        }
+        .lorem{
+            width:350px;
+           
+        }
+.burger2{
+    width:200px;
+    margin-left:200px;
+}
+.lehsen2{
+    margin-top:50px;
+}
+.chips2{
+    width:80px;
+margin-left:350px;
+margin-top:80px;
+}
+@media screen and (max-width: 780px) {
+    .lehsen2{
+       visibility: hidden;
+       position: absolute;
+    }
+    .capsicum2{
+        visibility: hidden;
+        position: absolute;
+    }
+  
+    .big-burger{
+        width:400px;
+            position:absolute;
+           
+    }
+    .leaf2{
+        position: absolute;
+        margin-left:200px;
+    }
+    .burger2{
+       width:150px;
+       margin-left:290px;
+    }
+    .burgerready2{
+        width:150px;
+        margin-left:150px;
+    }
+    .funjai2{
+        visibility: hidden;
+        position: absolute;
+    }
+
+    }
+    .lorem2{
+      margin:auto;
+    }
+    .customer{
+        width:150px;
+        height:150px;
+        border:2px solid white;
+    }
+    .outlet{
+        margin-left:300px;
+    }
+    .round{
+        margin-left:40px;
+        margin-top:40px;
+    }
+    .round2{
+        margin-left:30px;
+    }
+    .round3{
+        margin-left:42px;
+    }
+    .round4{
+        margin-left:34px;
+    }
+    .round5{
+        margin-left:35px;
+        margin-top:40px;
+    }
+    @media  screen and (max-width:1250px) {
+       
+        .outlet{
+            margin-left:200px;
+        }
+        .lehsen3{
+            visibility:hidden;
+        }
+        .chips3{
+            visibility:hidden;
+        }
+        .funjai3{
+            visibility: hidden;
+        }
+    }
+    @media  screen and (max-width:1100px) {
+       
+      .outlet{
+          margin-left:100px;
+      }
+     
+    }
+    @media  screen and (max-width:950px) {
+       
+        .outlet{
+            margin-left:50px;
+        }
+        .leaf3{
+            visibility:hidden;
+            position:absolute;
+        }
+        .ready{
+            visibility:hidden;
+            position:absolute;
+        }
+        .capsicum3{
+           position:absolute;
+           visibility:hidden;
+        }
+       .leaf5{
+           visibility:hidden;
+           position:absolute;
+       }
+       .capsicum5{
+           visibility:hidden;
+           position:absolute;
+       }
+       .ready4{
+           width:100px;
+       }
+       .funjai4{
+           visibility: hidden;
+           position:absolute;
+       }
+       .lehsen4{
+           visibility:hidden;
+           position:absolute;
+       }
+       
+    
+      }
+      @media  screen and (max-width:750px) {
+       
+        .outlet{
+            margin-left:60px;
+        }
+        .customer{
+            width:100px;
+            height:100px;
+        }
+        .round{
+            margin-left:20px;
+            margin-top:15px;
+        }
+        .round2{
+            margin-left:2px;
+        }
+        .round3{
+            margin-left:13px;
+        }
+        .round4{
+            margin-left:10px;
+        }
+        .round5{
+            margin-left:15px;
+            margin-top:10px;
+        }
+       .popular{
+           margin-left:80px;
+           margin-top:40px;
+       }
+
+      }
+      .ready{
+          width:120px;
+      }
+      .capsicum3{
+          width:50px;
+      }
+      .lehsen3{
+          width:50px;
+          margin-left: 550px;
+      }
+      .package{
+          width:250px;
+          height:320px;
+          margin-left:100px;
+          margin-top:10px;
+      }
+      .icon{
+          margin-left:60px;
+      }
+      .chips3{
+          width:80px;
+          margin-left:450px;
+      }
+      .bg1{
+        width:100%;
+        height:100%;
+        background-color: antiquewhite;
+      }
+      .banner-image{
+          background-image: url(../images/background1.png);
+          background-size: cover;
+          width:100%;
+          height:796px;
+          
+      }
+      .red{
+          width:100%;
+          background-color:red;
+          height:796px;
+          opacity:0.8;
+      }
+      .ipsum{
+          width:400px;
+          height:100px;
+          margin: auto;
+          margin-top:30%;
+          font-size:20px;
+      }
+     .update{
+         color:red;
+         font-size:50px;
+         text-align: center;
+     }
+     .ready2{
+         margin-top:30px;
+     }
+     .dolar{
+         width:500px;
+         margin-left:60px;
+         
+     }
+     .lehsen4{
+         margin-left:300px;
+         margin-top:50px;
+     }
+     .email{
+         position:absolute;
+         margin-top:10px;
+         margin-left:600px;
+         width:500px;
+         transform:translate(-50%,-50%);
+        
+     }
+     input{
+         position:relative;
+         display:inline-block;
+         font-size:20px;
+         box-sizing: border-box;
+        
+     }
+     input[type="email"]{
+        background: #fff;
+        width:340px;
+        height:50px;
+        border:none;
+        outline: none;
+        padding:0 25px;
+        border-radius:25px 0 0 25px;
+     }
+     input[type="submit"]{
+         position:relative;
+         left:-5px;
+         border-radius: 0 25px 25px 0;
+         width:150px;
+         height:50px;
+         border:none;
+         outline:none;
+         background: red;
+         color:#fff;
+     }
+     .chips4{
+         width:100px;
+     }
+     .leaf4{
+
+         margin-top:50px;
+     }
+     .capsicum4{
+         margin-left:100px;
+     }
+     .footer{
+         margin-top:200px;
+     }
