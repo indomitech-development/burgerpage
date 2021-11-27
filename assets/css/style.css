@@ -310,7 +310,14 @@ margin-top:80px;
            visibility:hidden;
            position:absolute;
        }
-       
+       .leaf4{
+        visibility:hidden;
+        position:absolute;
+    }
+    .capsicum4{
+        visibility:hidden;
+        position:absolute;
+    }
     
       }
       @media  screen and (max-width:750px) {
@@ -343,7 +350,7 @@ margin-top:80px;
            margin-left:80px;
            margin-top:40px;
        }
-
+   
       }
       .ready{
           width:120px;
@@ -410,41 +417,18 @@ margin-top:80px;
          margin-left:300px;
          margin-top:50px;
      }
-     .email{
-         position:absolute;
-         margin-top:10px;
-         margin-left:600px;
-         width:500px;
-         transform:translate(-50%,-50%);
+     .dolar2{
+         width:400px;
+         margin:auto;
         
      }
-     input{
-         position:relative;
-         display:inline-block;
-         font-size:20px;
-         box-sizing: border-box;
-        
-     }
-     input[type="email"]{
-        background: #fff;
-        width:340px;
-        height:50px;
-        border:none;
-        outline: none;
-        padding:0 25px;
-        border-radius:25px 0 0 25px;
-     }
-     input[type="submit"]{
-         position:relative;
-         left:-5px;
-         border-radius: 0 25px 25px 0;
-         width:150px;
-         height:50px;
-         border:none;
-         outline:none;
-         background: red;
-         color:#fff;
-     }
+    .form-control{
+        border-radius:40px 0 0 40px;
+    }
+        .radius{
+            border-radius:0 40px 40px 0;
+        }
+     
      .chips4{
          width:100px;
      }
@@ -458,3 +442,115 @@ margin-top:80px;
      .footer{
          margin-top:200px;
      }
+     @media screen and (max-width:400px) {
+        .width{
+            width:300px;
+            margin-left:5px;
+            
+        }
+        .profile{
+            margin-left: 120px;
+        }
+        .danger{
+            font-size: medium;
+            margin-left:110px;
+        }
+        .best-burger{
+            margin-top:130px;
+            width:250px;
+        }
+        .burger{
+            width:140px;
+            margin-left:205px;
+            margin-top:130px;
+        }
+        .lorem{
+            width:200px;
+           
+        }
+.burger2{
+    width:100px;
+    margin-left:240px;
+}
+.customer{
+    width:70px;
+    height:70px;
+    border:2px solid white;
+}
+.outlet{
+    margin-left:30px;
+}
+.round{
+       margin-left:7px;
+}
+.round2{
+    visibility: hidden;
+}
+.round3{
+  visibility:hidden;
+}
+.round4{
+   visibility: hidden;
+}
+.round5{
+    margin-left:2px;
+    margin-top:15px;
+   
+}
+.popular{
+    margin-left:40px;
+    margin-top:40px;
+}
+.package{
+    margin-left:50px;
+   
+}
+.ipsum{
+    width:300px;
+    height:100px;
+    margin: auto;
+    margin-top:80%;
+    font-size:20px;
+}
+.henderson{
+    margin-top:50px;
+}
+.dolar{
+    width:350px;
+  margin-left:auto;
+    
+}
+.dolar2{
+  width:300px;
+}
+.leaf{
+   visibility: hidden;
+}
+.chips2{
+    width:80px;
+margin-left:50px;
+margin-top:150px;
+}
+.last{
+    margin-left:150px;
+}
+     }
+     .sit{
+         width:500px;
+     }
+     .list-unstyled>li>a{
+         text-decoration: none;
+         color:white;
+     }
+    
+     footer{
+         width:100%;
+         height:100%;
+     }
+  .amet{
+      font-size: 30px;
+      
+  }
+  .am{
+    margin-left:20px;
+  }
